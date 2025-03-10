@@ -30,4 +30,4 @@ simp_intr = simple_interest(25000,6,5.4)
 print(f"Output of Simple Interest function: {simp_intr}")
 
 simp_intr2 = simple_interest("string",6,4.3)
-print(simp_intr2)
+print(simp_intr2) # type: ignore
